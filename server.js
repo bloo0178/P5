@@ -43,13 +43,3 @@ app.post('/api/fileanalyse', (req, res) => {
 app.listen(process.env.PORT || 3000, function () {
   console.log('Node.js listening ...');
 });
-
-
-/*
-  <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
-            <input id="button" type="submit" value="Upload">
-            
-
-  {"name":"P4 Log.png","type":"image/png","size":16214}
-*/
